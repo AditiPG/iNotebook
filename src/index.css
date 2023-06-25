@@ -5,9 +5,63 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+  
+
+  background-color: #ffeded;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.navbar{
+  background-color: #CBD5F0;
+  color: #194F92;
+}
+.btn{
+  font-weight: bold;
+  color: #194F92;
+}
+.nav-link{
+  font-weight: bold;
+  color: #FF69B4;
+}
+.card-body{
+  color:#194F92;
+  background-color:#CBD5F0;
+}
+.note-submit{
+  color:#194F92;
+  background-color: #FF69B4;
+}
+
+.heading{
+  color:#194F92
+}
+
+.card-title{
+  font-weight: bold;
+}
+
+.fa-solid{
+  color:#FF69B4;
+  
+}
+
+.login, .logout, .signup{
+  color:#FF69B4;
+}
+
+.enotebook{
+  color: #fff;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+
+i{
+  cursor: pointer;
 }
